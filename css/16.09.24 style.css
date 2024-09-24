@@ -282,24 +282,27 @@ select option{
     position: relative;
     border-radius: 15px;
     height: 525px;
-    width: 1000;
 }
 
 .Title_card3{
-    padding-top: 70px;
+    padding-top: 140px;
     display: flex;
     font-weight: 600;
-    font-size: 30px; 
+    font-size: 40px; 
     flex-direction: column;
-    text-align: justify;
+    text-align: start;
     padding-left: 20px;
     flex-grow: 1;
     position:absolute;
     z-index: 1;
+    width: 80%;
 }
 
 .subTitle3{
     font-size: 18px;
+    width: 40%;
+    margin-top: 15px;
+    
 }
 
 .card5{
@@ -311,12 +314,50 @@ select option{
 }
 
 .ImgBox_card_img5  img{
-    /* width: 100%; */
+    width: 85%;
     height: 100%; 
     position: relative;
-    padding-left: 165px;
+    padding-left: 150px;
+    border-radius: 15px;
 }
 
 .ImgBox_card_img5{
     flex-grow: 6;
 }
+
+.ImgBox_card_img6{
+    width: 85%;
+    height: 100%; 
+    position: relative;
+    left: 245px;
+}
+
+.card6{
+    margin-top: 130px;
+    display: flex;
+    position: relative;
+}
+
+.block1{
+    background:linear-gradient(#373740,#232328);;
+    border-radius: 15px;
+    margin-right: 20px;
+    width: 240px;
+    height: 145px;
+    font-weight: 500;
+    font-size: 30px; 
+    text-align: center;
+    padding-top: 50px;
+}
+
+.subTitle4{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.Title4{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
