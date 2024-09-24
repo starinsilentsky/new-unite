@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 }
 
+body{
+    background-color: #171736;
+    color: white;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -336,18 +340,18 @@ select option{
     margin-top: 130px;
     display: flex;
     position: relative;
+    gap: 20px;
 }
 
 .block1{
     background:linear-gradient(#373740,#232328);;
     border-radius: 15px;
-    margin-right: 20px;
-    width: 240px;
-    height: 145px;
+    width: 100%; 
     font-weight: 500;
     font-size: 30px; 
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .subTitle4{
@@ -361,3 +365,40 @@ select option{
     margin-top: 10px;
 }
 
+.page5{
+    margin-top: 160px;
+}
+
+.card_3{
+    display: flex;
+    gap: 5%;
+}
+.card_5{
+    flex-direction: column;
+    width: 100%;
+    background-color: #232229;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.subshrift{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.card_5 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title5{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.data{
+    text-align: left;
+    padding-top: 15px;
+}
