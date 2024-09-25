@@ -372,19 +372,23 @@ select option{
 .card_3{
     display: flex;
     gap: 5%;
+    margin-bottom: 60px;
 }
 .card_5{
     flex-direction: column;
     width: 100%;
     background-color: #232229;
-    height: 500px;
+    height: 450px;
     border-radius: 15px;
+    text-align: start;
+
 }
 
 .subshrift{
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font-size: 14px;
+    padding-left: 15px;
 }
 
 .card_5 img{
@@ -393,12 +397,94 @@ select option{
 }
 
 .title5{
-    text-align: start;
+   
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     padding-left: 15px;
 }
 .data{
     text-align: left;
+    padding-top: 4px;
+}
+
+.microtitle{
+    display: flex;
     padding-top: 15px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.microtitle5{
+    color: #2e2d2d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 300;
+}
+
+.Title5{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.subTitle5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    display: flex;
+}
+
+.name_5{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+
+.card_51{
+    background: purple;
+    gap: 30px;
+    position: relative;
+    background: linear-gradient(135deg, rgba(158,12,12,1) 0%, rgba(51,51,51,1) 28%, rgba(51,51,51,1) 28%, rgba(0,92,148,1) 56%, rgba(85,80,87,1) 87%, rgba(91,79,82,1) 100%);
+}
+
+.card_52{
+    background: orange;
+    align-items: end;
+    position: relative;
+    background: rgb(0,149,107);
+    background: linear-gradient(152deg, rgba(0,149,107,1) 0%, rgba(10,2,131,1) 31%, rgba(106,3,231,1) 52%, rgba(180,39,204,1) 80%, rgba(110,111,111,1) 90%);
+}
+
+.copy5{
+    color: azure;
+    display: flex;
+    align-items: end;
+    
+}
+
+.icq{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.imgBox_card_icq{
+    padding-bottom: -15px;
+}
+
+.imgBox_icon{
+    display: flex;
+    justify-items: start;
+}
+
+.text_start{
+    margin-top: 170px;
 }
