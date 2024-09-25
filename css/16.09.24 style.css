@@ -488,3 +488,23 @@ select option{
 .text_start{
     margin-top: 170px;
 }
+
+.card7{
+    background: rgb(2,0,36);
+    height: 700px;
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(85,73,112,1) 58%, rgba(121,53,136,1) 69%, rgba(44,44,130,1) 88%);
+}
+
+.img61{
+    display: grid;   
+    grid-column-start: 9;
+
+}
+
+.img{
+    
+    
+}
