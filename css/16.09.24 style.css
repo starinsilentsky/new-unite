@@ -466,7 +466,7 @@ select option{
 .copy5{
     color: azure;
     display: flex;
-    align-items: end;
+    align-items:end;
     
 }
 
@@ -487,4 +487,99 @@ select option{
 
 .text_start{
     margin-top: 170px;
+}
+
+.img_battle{
+    width: 100%;
+    
+}
+
+.card61{
+    background: #3F3F4A99;
+    height: 500px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 40px;
+    background: rgb(18,18,97);
+    background: linear-gradient(153deg, rgba(18,18,97,1) 0%, rgba(75,37,121,1) 27%, rgba(135,32,153,1) 63%, rgba(90,82,210,1) 90%);
+    border-radius: 15px;
+}
+
+.imgBox_61{
+    padding-top: 100px;
+    padding-right: 80px;
+    width: 80%;
+    align-items: end;
+}
+
+.Title6{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.text6{
+    padding-left: 100px;
+    padding-top: 120px;
+    align-items: start;
+    width: 50%;
+    text-align: left;
+}
+
+.subTitle6{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.copy6{
+    color: azure;
+    display: flex;
+    align-items: start;
+    margin-top: 475px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+.imgBox_63{
+    padding-top: 50px;
+    padding-right: 80px;
+    width: 60%;
+    align-items: end; 
+}
+
+.footer{
+    background: #232229;
+    display: flex;
+    height: 800px;
+
+
+}
+.underground_logo{
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.page_final{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title4.final{
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.btn_final{color: azure;
+    text-decoration: none;
+    background: #79109D;
+    padding:8px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: inline-block ;
 }
