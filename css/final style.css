@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #171736;
+    color: white;
+}
+.card{
+    margin-top: 130px;
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+.Title{
+    font-weight: 600;
+    font-size: 40px; 
+    color: white;
+    text-align:center;
+    padding-bottom: 15px;
+    z-index: 1;
+    
+    
+}
+/* .Title_card1{
+    padding-top: 140px;
+    display: flex;
+    font-weight: 600;
+    font-size: 40px; 
+    flex-direction: column;
+    text-align: start;
+    padding-left: 20px;
+    flex-grow: 1;
+    position:absolute;
+    z-index: 1;
+    width: 80%;
+} */
+
+.subTitle{
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+} 
+
+.microTitle{
+    color: #7a7a7a;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 300px;
+}
+
+.header{
+    background:#3F3F4A99 ;
+}
+.header_content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.nav_link{
+    color: azure;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn{
+    color: azure;
+    text-decoration: none;
+    background: #79109D;
+    padding:8px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: inline-block   ;
+}
+
+.langSelectorWrp select{
+    border-radius: 100px;
+}
+
+select option{
+    background-color: black;
+    color: white;
+}
+
+
+.LogoIMG2{
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+}
+.section_ImgBox{
+    float: right;
+    margin-left: 40px;
+}
+
+.title-medium{
+    font-weight: bolder;
+    font-size:50px;
+    line-height:50px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section_content{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.text{
+    line-height: 70px;
+}
+
+.section_folder{
+    display: flex;
+    list-style: none;
+    align-items: center;   
+    gap:30px;
+}
+.avilableList{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.avilableItem{
+    display: flex;
+    align-items: center;
+}
+.avilable{
+    display: flex;
+    line-height: 70px;
+    gap: 20px;
+}
+
+.elipse-decor{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: purple;  
+  border-radius: 50%;
+  right: 20%;
+  z-index: -1;
+  filter: blur(50px);
+}
+
+.imgfon{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.imgleft{
+    position: absolute;
+    left: 0;
+} 
+
+.section2Content{
+    text-align: center;
+    
+}
+.imgright{
+    position: absolute;
+     right: 0;
+ }
+
+ .page3{
+    margin-top: 400px;
+ }
+
+ .Allcards{
+    display: grid;
+}
+
+.rowCards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Title.card3{
+    padding-top: 15px;
+    text-align: left;
+}
+
+.card31{
+    background: purple;
+    gap: 30px;
+    position: relative;
+}
+
+.card32{
+    background: orange;
+    align-items: end;
+    position: relative;
+}
+
+.card2{
+    border-radius: 15px;
+   
+    padding: 20px 40px;
+    width: 490px;
+    box-sizing: border-box; 
+   
+}

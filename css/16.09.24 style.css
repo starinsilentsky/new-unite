@@ -53,12 +53,12 @@ body{
 }
 
 .langSelectorWrp select{
-    background: transparent;
     border-radius: 100px;
 }
 
 select option{
     background-color: black;
+    color: white;
 }
 
 
@@ -192,21 +192,22 @@ select option{
     left: 0;
     text-align: left;
 }
-.card{
+
+.card2{
     border-radius: 10%;
     display: grid;
     padding: 20px 40px;
     width: 490px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
    
 }
-.card1{
+.card31{
     background: purple;
     gap: 30px;
     position: relative;
 }
 
-.card2{
+.card32{
     background: orange;
     align-items: end;
     position: relative;
@@ -369,10 +370,10 @@ select option{
     margin-top: 160px;
 }
 
-.card_3{
+.card3{
     display: flex;
     gap: 5%;
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
 }
 .card_5{
     flex-direction: column;
@@ -448,14 +449,14 @@ select option{
 }
 
 
-.card_51{
+.card_41{
     background: purple;
     gap: 30px;
     position: relative;
     background: linear-gradient(135deg, rgba(158,12,12,1) 0%, rgba(51,51,51,1) 28%, rgba(51,51,51,1) 28%, rgba(0,92,148,1) 56%, rgba(85,80,87,1) 87%, rgba(91,79,82,1) 100%);
 }
 
-.card_52{
+.card_42{
     background: orange;
     align-items: end;
     position: relative;
@@ -550,14 +551,12 @@ select option{
 .footer{
     background: #232229;
     display: flex;
-    height: 800px;
+    height: 600px;
 
 
 }
 .underground_logo{
-    display: flex;
-    position: absolute;
-    left: 0;
+    padding-right: 60px;
 }
 
 .page_final{
@@ -582,4 +581,32 @@ select option{
     outline: none;
     border: none;
     display: inline-block ;
+    margin-top: 20px;
+}
+
+.underground_text{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+   width: 100%;
+   line-height: 40px;
+}
+
+.Footer_card{
+    color: #5a5959;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300; 
+    text-align: left;
+}
+
+.final_page{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    position: absolute;
+    margin-right: 800px;
+    margin-top: 550px;
+    
 }
