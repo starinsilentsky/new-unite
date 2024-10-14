@@ -14,6 +14,8 @@ body{
     display: flex;
     position: relative;
     gap: 20px;
+    border-radius: 15px;
+    height: 600px;
 }
 .Title{
     font-weight: 600;
@@ -21,23 +23,27 @@ body{
     color: white;
     text-align:center;
     padding-bottom: 15px;
-    z-index: 1;
+    z-index: +1;
+}
+
+.Title2{
+    font-weight: 600;
+    font-size: 40px; 
+    color: white;
+    text-align:left;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    z-index: +1;
+    margin-top: 120px;
     
     
 }
-/* .Title_card1{
-    padding-top: 140px;
-    display: flex;
-    font-weight: 600;
-    font-size: 40px; 
-    flex-direction: column;
-    text-align: start;
-    padding-left: 20px;
-    flex-grow: 1;
-    position:absolute;
-    z-index: 1;
-    width: 80%;
-} */
+
+.subTitle2{
+    font-size: 18px;
+    text-align: left;
+    z-index: 1; 
+}
 
 .subTitle{
     font-size: 18px;
@@ -51,6 +57,29 @@ body{
     text-align: center;
     margin-top: 170px;
     font-weight: 300;
+}
+
+.ImgBox_card1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding-top: 90px;
+    z-index: 1;
+}
+
+.ImgBox_card2{
+    width: 85%;
+    height: 100%; 
+    position: relative;
+    border-radius: 15px;
+    flex-grow: 6;
+}
+.copy{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    z-index: 1;
 }
 
 .container {
@@ -215,16 +244,32 @@ select option{
 }
 
 .card32{
-    background: orange;
+    background: rgb(189, 123, 2);
     align-items: end;
     position: relative;
 }
 
 .card2{
     border-radius: 15px;
-   
+    display: flex;
+    flex-direction: column;
     padding: 20px 40px;
     width: 490px;
-    box-sizing: border-box; 
-   
+    box-sizing: border-box;
+    height: 570px;   
 }
+
+.phone{
+    position: relative;
+    right: -60px;
+}
+
+.blue{
+    background-color: rgb(40, 12, 92);
+    gap: 0%;
+}
+
+.grey{
+    background-color:#393942;
+}
+
