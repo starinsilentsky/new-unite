@@ -10,12 +10,12 @@ body{
     color: white;
 }
 .card{
-    margin-top: 130px;
+    margin-bottom: 130px;
     display: flex;
     position: relative;
     gap: 20px;
     border-radius: 15px;
-    height: 600px;
+    min-height: 500px;
 }
 .Title{
     font-weight: 600;
@@ -61,18 +61,23 @@ body{
 
 .ImgBox_card1{
     display: flex;
-    width: 100%;
     height: 400px;
-    padding-top: 90px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
     z-index: 1;
+    position: relative;
+    left: 0px;
+
 }
 
 .ImgBox_card2{
-    width: 85%;
-    height: 100%; 
+    width: 100%;
+    /* height: 100%;  */
     position: relative;
     border-radius: 15px;
     flex-grow: 6;
+
 }
 .copy{
     display: flex;
@@ -256,7 +261,8 @@ select option{
     padding: 20px 40px;
     width: 490px;
     box-sizing: border-box;
-    height: 570px;   
+    height: 600px;  
+    margin-bottom: 130px; 
 }
 
 .phone{
@@ -271,5 +277,51 @@ select option{
 
 .grey{
     background-color:#393942;
+    gap: 0;
 }
 
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.card3{
+  
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+.block1{
+    background:linear-gradient(#373740,#232328);;
+    border-radius: 15px;
+    width: 100%; 
+    font-weight: 500;
+    font-size: 30px; 
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Block1{
+    font-size: 30px;
+}
+
+.block2{
+    
+}
+
+.page5{
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+    
+}
+
+.container2{
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+    
+}
