@@ -288,7 +288,7 @@ select option{
 
 
 .card3{
-  
+    margin-bottom: 60px; 
     display: flex;
     position: relative;
     gap: 20px;
@@ -303,25 +303,47 @@ select option{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 .Block1{
     font-size: 30px;
+    margin-bottom: 5px;
 }
-
-.block2{
-    
+.Block2{
+    flex-direction: column;
+    width: 350px;
+    background-color: #232229;
+   
 }
-
-.page5{
-    display: flex;
-    gap: 50px;
+.Block3{
+    font-size: 27px;
+    margin-top: 10px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.btn.btn1{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: inline-block ;
     justify-items: center;
-    
+    align-content: center;
 }
 
+.subshrift{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    padding-left: 15px;
+}
 .container2{
     display: flex;
     gap: 50px;
-    justify-items: center;
-    
+    justify-content: center;
+}
+.data{
+    text-align: left;
+    padding-top: 4px;
+    font-size: 20px;
+}
+.name{
+    display: flex;
 }
