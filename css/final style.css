@@ -347,3 +347,66 @@ select option{
 .name{
     display: flex;
 }
+
+.name_5{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.card_41{
+    background: linear-gradient(135deg, rgba(158,12,12,1) 0%, rgba(51,51,51,1) 28%, rgba(51,51,51,1) 28%, rgba(0,92,148,1) 56%, rgba(85,80,87,1) 87%, rgba(91,79,82,1) 100%);
+}
+
+.card_42{
+    background: rgb(0,149,107);
+    background: linear-gradient(152deg, rgba(0,149,107,1) 0%, rgba(10,2,131,1) 31%, rgba(106,3,231,1) 52%, rgba(180,39,204,1) 80%, rgba(110,111,111,1) 90%);
+}
+
+.copy5{
+    color: azure;
+    display: flex;
+    align-items:end;
+    
+}
+.icq{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.imgBox_card_icq{
+    padding-bottom: -15px;
+}
+
+.imgBox_icon{
+    display: flex;
+    justify-items: start;
+}
+
+.ImgBox_card.br{
+    min-height: 50px;
+    width: 30%;
+}
+
+
+.Title.page6{
+    margin-bottom: 15px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+.rowCards{
+    display: flex;
+    gap: 5%;
+    align-content: center;
+}
+
+.card.page6{
+    border-radius: 15px;
+    min-height: 1px; 
+}
